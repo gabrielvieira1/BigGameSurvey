@@ -35,7 +35,8 @@ public class RecordResource {
 	}
 
 	@GetMapping
-	public ResponseEntity<Page<RecordDTO>> findAll(@RequestParam(value = "min", defaultValue = "") String min,
+	public ResponseEntity<Page<RecordDTO>> findAll(
+			@RequestParam(value = "min", defaultValue = "") String min,
 			@RequestParam(value = "max", defaultValue = "") String max,
 			@RequestParam(value = "page", defaultValue = "0") Integer page, // atributo usado no parametro da uri ,
 																			// pagina padrao, variavel

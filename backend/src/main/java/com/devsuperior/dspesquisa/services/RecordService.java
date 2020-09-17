@@ -36,7 +36,6 @@ public class RecordService {
         Game game = gameRepository.getOne(dto.getGameId());
 
         entity.setGame(game);
-
         entity = repository.save(entity);
 
         return new RecordDTO(entity);
