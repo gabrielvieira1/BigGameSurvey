@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "front-mobile",
+    "name": "SdsGabriel",
     "slug": "front-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,6 +21,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.gabriel.sdsgabriel",
+      "versionCode": 1
     }
   }
 }
